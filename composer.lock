@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e206f21f70d1c41f940881c285740934",
-    "content-hash": "fdbde362efaaa50c83b23833d8d66846",
+    "hash": "1f1e9bba41ed05a341458a44cb4b3b86",
+    "content-hash": "b87e62f22b574a314eafa59e75a5c4f6",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -781,6 +781,52 @@
                 "standards"
             ],
             "time": "2017-03-18 10:28:49"
+        },
+        {
+            "name": "drupal/legal",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/legal",
+                "reference": "289cca1a26bbb4f7db01e5343b4d7dbd37a494de"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1467836568",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Castelo",
+                    "homepage": "https://www.drupal.org/user/3555"
+                },
+                {
+                    "name": "vegantriathlete",
+                    "homepage": "https://www.drupal.org/user/491720"
+                }
+            ],
+            "description": "Display Terms and Conditions statement on the registration page.",
+            "homepage": "https://www.drupal.org/project/legal",
+            "support": {
+                "source": "http://cgit.drupalcode.org/legal"
+            },
+            "time": "2016-01-04 17:45:57"
         },
         {
             "name": "drupal/social_api",
@@ -5674,6 +5720,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/legal": 20,
         "behat/mink": 20,
         "behat/mink-selenium2-driver": 20
     },
