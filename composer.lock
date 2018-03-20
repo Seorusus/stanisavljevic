@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e149d94ea9ab4ab63574d23ea6ca7ab4",
-    "content-hash": "9c2f9b4712c4eb0f582ff06abdfea0de",
+    "hash": "fba62fdf529f6bac71b290d9f79888d4",
+    "content-hash": "50d086032ef739c9f885c9901cd48b33",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1459,6 +1459,39 @@
             "time": "2017-03-20 17:10:46"
         },
         {
+            "name": "jakeasmith/http_build_url",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jakeasmith/http_build_url.git",
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jakeasmith/http_build_url/zipball/93c273e77cb1edead0cf8bcf8cd2003428e74e37",
+                "reference": "93c273e77cb1edead0cf8bcf8cd2003428e74e37",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/http_build_url.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jake A. Smith",
+                    "email": "theman@jakeasmith.com"
+                }
+            ],
+            "description": "Provides functionality for http_build_url() to environments without pecl_http.",
+            "time": "2017-05-01 15:36:40"
+        },
+        {
             "name": "league/oauth2-client",
             "version": "2.3.0",
             "source": {
@@ -1575,6 +1608,62 @@
                 "oauth2"
             ],
             "time": "2017-07-22 01:25:00"
+        },
+        {
+            "name": "league/oauth2-instagram",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-instagram.git",
+                "reference": "abf6466ebd2c2a73e920b0ce834e2bf50d1abdcc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-instagram/zipball/abf6466ebd2c2a73e920b0ce834e2bf50d1abdcc",
+                "reference": "abf6466ebd2c2a73e920b0ce834e2bf50d1abdcc",
+                "shasum": ""
+            },
+            "require": {
+                "jakeasmith/http_build_url": "^1.0",
+                "league/oauth2-client": "^2.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Maguire",
+                    "email": "stevenmaguire@gmail.com",
+                    "homepage": "https://github.com/stevenmaguire"
+                }
+            ],
+            "description": "Instagram OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "client",
+                "instagram",
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2017-01-26 01:21:29"
         },
         {
             "name": "league/oauth2-linkedin",
