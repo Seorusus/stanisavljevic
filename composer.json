@@ -10,7 +10,8 @@
         "behat/mink": "^1.7",
         "drupal/coder": "^8.2",
         "drupal/social_auth_google": "~1.0",
-        "league/oauth2-facebook": "^2.0"
+        "league/oauth2-facebook": "^2.0",
+        "drupal/social_auth_linkedin": "^2.0"
     },
     "replace": {
         "drupal/core": "^8.5"
