@@ -16,7 +16,8 @@
         "drupal/social_auth_twitter": "~2.0",
         "drupal/legal": "1.x-dev",
         "drupal/search_api_solr": "^1.2",
-        "drupal/search_api_pantheon": "1.x-dev"
+        "drupal/search_api_pantheon": "1.x-dev",
+        "drupal/superfish": "^1.2"
     },
     "replace": {
         "drupal/core": "^8.5"
