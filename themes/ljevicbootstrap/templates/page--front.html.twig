@@ -70,20 +70,22 @@
             </div>
         </section>
     {% endif %}
-    <branding id="branding">
+    <div class="container">
         <div class="row">
-            <div class="col-8">
-                {{ page.branding }}
-            </div>
+            <branding id="branding">
+                <div class="col-8">
+                    {{ page.branding }}
+                </div>
+            </branding>
+
+            <languages id="languages">
+                <div class="col-4">
+                    {{ page.languages }}
+                </div>
+            </languages>
         </div>
-    </branding>
-    <languages id="languages">
-        <div class="row">
-            <div class="col-4">
-                {{ page.languages }}
-            </div>
-        </div>
-    </languages>
+    </div>
+
     <navigation id="navigation">
         <div class="row">
             <div class="col-6">
@@ -104,15 +106,15 @@
         </div>
     </help>
     {#{% if page.sidebar_left %}#}
-        {#<sidebar_left id="sidebar_left">#}
-            {#<div class="container">#}
-                {#<div class="row">#}
-                    {#<div class="col-3">#}
-                        {#{{ page.sidebar_left }}#}
-                    {#</div>#}
-                {#</div>#}
-            {#</div>#}
-        {#</sidebar_left>#}
+    {#<sidebar_left id="sidebar_left">#}
+    {#<div class="container">#}
+    {#<div class="row">#}
+    {#<div class="col-3">#}
+    {#{{ page.sidebar_left }}#}
+    {#</div>#}
+    {#</div>#}
+    {#</div>#}
+    {#</sidebar_left>#}
     {#{% endif %}#}
     <section id="main">
         <div class="container">
@@ -130,20 +132,20 @@
     </section>
     <div class="footer container">
         <div class="row">
-        {% if page.footer_left %}
-            <footer_left id="footer_left">
-                <div class="col-6">
-                    {{ page.footer_left }}
-                </div>
-            </footer_left>
-        {% endif %}
-        {% if page.footer_right %}
-            <footer_right id="footer_right">
-                <div class="col-6">
-                    {{ page.footer_right }}
-                </div>
-            </footer_right>
-        {% endif %}
+            {% if page.footer_left %}
+                <footer_left id="footer_left">
+                    <div class="col-6">
+                        {{ page.footer_left }}
+                    </div>
+                </footer_left>
+            {% endif %}
+            {% if page.footer_right %}
+                <footer_right id="footer_right">
+                    <div class="col-6">
+                        {{ page.footer_right }}
+                    </div>
+                </footer_right>
+            {% endif %}
         </div>
     </div>
 </div>
