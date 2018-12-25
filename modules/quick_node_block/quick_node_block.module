@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Module file for quick_node_block.
+ *
+ * Module for add node and his display in a block.
+ */

@@ -1,6 +1,17 @@
-global-styling:
-   version: 1.0
-   css:
-     theme:
-       includes/bootstrap/css/bootstrap.css: {}
-       css/style.css: {}
+globalscripts:
+  version: 1.0
+  js:
+    js/ljevicbootstrap.js: {}
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.css: {}
+      css/style.css: {}
+
+fonts:
+  license:
+    name: Apache License, 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Helvetica+Neue:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800': { type: external }
+

@@ -1,0 +1,14 @@
+name: Quick Node Block
+type: module
+description: 'Add node and his display in a block'
+package: Custom
+# core: 8.x
+dependencies:
+  - drupal:block
+  - drupal:node
+
+# Information added by Drupal.org packaging script on 2018-07-27
+version: '8.x-1.1'
+core: '8.x'
+project: 'quick_node_block'
+datestamp: 1532675586

@@ -6,22 +6,21 @@ core: 8.x
 
 regions:
   branding: 'Branding'
+  languages: 'Languages'
   navigation: 'Navigation'
-  header: 'Header'
-  highlighted: 'Highlignted'
+  titlepage: 'Title page'
+  banner: 'Banner'
   help: 'Help'
   content: 'Main Content'
-  sidebar_first: 'Sidebar First'
-  sidebar_second: 'Sidebar Second'
-  footer: 'Footer'
-  page_top: 'Page Top'
-  page_bottom: 'Page Bottom'
+  sidebar_left: 'Sidebar Left'
+  footer_left: 'Footer Left'
+  footer_right: 'Footer Right'
 
-
-# core: 8.x
-# version: 1.0
+libraries:
+ - ljevicbootstrap/globalscripts
+ - ljevicbootstrap/fonts
 
 # Add Main Bootstrap CDNs
-bs-cdn-css: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'
-bs-cdn-js: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'
+#bs-cdn-css: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'
+#bs-cdn-js: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'
 

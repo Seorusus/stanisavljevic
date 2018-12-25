@@ -1,6 +1,0 @@
-# Schema for the configuration files of the Stanisavljevic theme.
-
-stanisavljevic.settings:
-  type: theme_settings
-  label: Stanisavljevic settings
-

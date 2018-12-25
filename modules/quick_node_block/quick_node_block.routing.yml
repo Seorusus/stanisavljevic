@@ -1,0 +1,7 @@
+quick_node_block.autocomplete:
+  path: '/quick_node_block/autocomplete'
+  defaults:
+    _controller: '\Drupal\quick_node_block\Controller\AutocompleteController::autocomplete'
+  requirements:
+  # Controller to choose the display mode and find the content.
+    _access: 'TRUE'
