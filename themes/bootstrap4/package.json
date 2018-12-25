@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "Drupal theme to run with bootstrap 4.",
+  "main": "index.js",
+  "scripts": {
+    "sass-compile": "node-sass scss/style.scss css/style.css",
+    "sass-compile-watch": "node-sass -rw scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "VladimirAus@git.drupal.org:project/bootstrap4.git"
+  },
+  "author": "vladimir@tomato-elephant-studio.com",
+  "license": "ISC",
+  "homepage": "https://www.drupal.org/project/bootstrap4",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "sass-lint": "^1.12.1"
+  }
+}
