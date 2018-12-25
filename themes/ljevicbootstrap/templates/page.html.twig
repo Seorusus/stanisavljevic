@@ -62,56 +62,66 @@
  */
 #}
 
-<div id="page">
+<div id="page" class="container">
     {% if page.headline %}
         <section id="headline">
-            <div class= "container">
+            <div>
                 {{ page.headline }}
             </div>
         </section>
     {% endif %}
-    <div class="container">
         <div class="row">
-            <branding id="branding">
-                <div class="col-8">
-                    {{ page.branding }}
+            <div class="col-7">
+                <branding id="branding">
+                    <div class="branding">
+                        {{ page.branding }}
+                    </div>
+                </branding>
                 </div>
-            </branding>
-
-            <languages id="languages">
-                <div class="col-4">
-                    {{ page.languages }}
+            <div class="col-5">
+                <languages id="languages">
+                    <div class="languages">
+                        {{ page.languages }}
+                    </div>
+                </languages>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-6 offset-md-6">
+            <navigation id="navigation">
+                <div class="navigation">
+                    {{ page.navigation }}
                 </div>
-            </languages>
+            </navigation>
         </div>
     </div>
-
-    <navigation id="navigation">
-        <div class="row">
-            <div class="col-6">
-                {{ page.navigation }}
-            </div>
+    <div class="row">
+        <div class="col">
+            <titlepage id="titlepage">
+                <div class="titlepage">
+                    {{ page.titlepage }}
+                </div>
+            </titlepage>
         </div>
-    </navigation>
-    <titlepage id="titlepage">
-        <div class="row">
-            <div class="col">
-                {{ page.titlepage }}
-            </div>
+    </div>
+    <div class="row banner-front">
+        <div class="col-md-3 offset-md-9">
+            <banner id="banner">
+                <div class="banner">
+                    {{ page.banner }}
+                </div>
+            </banner>
         </div>
-    </titlepage>
-    <banner id="banner">
-        <div class="row">
-            <div class="col">
-                {{ page.banner }}
-            </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <help id="help">
+                <div class="help">
+                    {{ page.help }}
+                </div>
+            </help>
         </div>
-    </banner>
-    <help id="help">
-        <div class="container">
-            {{ page.help }}
-        </div>
-    </help>
+    </div>
     {#{% if page.sidebar_left %}#}
         {#<sidebar_left id="sidebar_left">#}
             {#<div class="container">#}
@@ -124,35 +134,41 @@
         {#</sidebar_left>#}
     {#{% endif %}#}
     <section id="main">
-        <div class="container">
-            <div class="row">
+        <div class="row">
+            <div class="col-3">
                 {% if page.sidebar_left %}
-                    <aside id="sidebar_left" class="sidebar col-3">
+                    <aside id="sidebar_left" class="sidebar_left">
                         {{ page.sidebar_left}}
                     </aside>
                 {% endif %}
-                <div id="content" class="col-9">
+            </div>
+            <div class="col-9">
+                <div id="content" class="content">
                     {{ page.content }}
                 </div>
             </div>
-        </div>
+            </div>
     </section>
-    <div class="footer container">
+    <div class="footer">
         <div class="row">
+            <div class="col-6">
             {% if page.footer_left %}
                 <footer_left id="footer_left">
-                    <div class="col-6">
+                    <div class="footer_left">
                         {{ page.footer_left }}
                     </div>
                 </footer_left>
             {% endif %}
+                </div>
+            <div class="col-6">
             {% if page.footer_right %}
                 <footer_right id="footer_right">
-                    <div class="col-6">
+                    <div class="footer_right">
                         {{ page.footer_right }}
                     </div>
                 </footer_right>
             {% endif %}
+                </div>
         </div>
     </div>
 </div>
