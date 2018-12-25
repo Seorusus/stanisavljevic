@@ -1,0 +1,10 @@
+<div class = "footer-follow-wrap">
+  <div class = "block-content">
+    <div class="follow-links clearfix site">
+      <span class="follow-link-wrapper follow-link-wrapper-linkedin"><a href="https://www.linkedin.com/company/cmsbots-com" class="follow-link follow-link-linkedin" title="Follow us on linkedin"> </a></span>
+      <span class="follow-link-wrapper follow-link-wrapper-twitter"><a href="https://twitter.com/cmsbots" class="follow-link follow-link-twitter" title="Follow us on twitter"> </a></span>
+      <span class="follow-link-wrapper follow-link-wrapper-facebook"><a href="https://www.facebook.com/CMSbots" class="follow-link follow-link-facebook" title="Follow us on Facebook"> </a></span>
+      <span class="follow-link-wrapper follow-link-wrapper-googleplus"><a href="https://plus.google.com/+Cmsbots" class="follow-link follow-link-googleplus" title="Follow us on Google+"> </a></span>
+    </div>
+  </div>
+</div>

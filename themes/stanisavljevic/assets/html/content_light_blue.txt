@@ -1,0 +1,56 @@
+		<div class="row">
+					<div class="col-sm-6 col-xs-12 content-boxes">
+						<div class="row top-header">
+								<h2 class="title">Our Services</h2>
+								<div class="description">Ut efficitur cursus euismod. Vestibulum ante ipsum primis in faucibusrlfl orci luctus 
+								et ultrices posuere cubilia, nisl suscipit tempor.</div>
+						</div>
+						<div class="row content-box">
+							<div class="col-sm-2 col-xs-3">
+							<span class="icon-circle text-center"><i class="fa fa-desktop"></i></span>
+							</div>
+							<div class="col-sm-10 col-xs-9">
+								<h4 class="title">Web design</h4>
+								<div class="description">Sed tortor mi, gravida in viverra accumsan, pulvinar quis sem. Donec 
+								congue in nisl quis dignissim. Fusce eu elit suscipit, iaculis nibh.</div>
+							</div>
+						</div>
+					<div class="row content-box">
+						<div class="col-sm-2 col-xs-3">
+							<span class="icon-circle  text-center"><i class="fa fa-line-chart"></i></span>
+						</div>
+						<div class="col-sm-10 col-xs-9">
+							<h4 class="title">Optimization</h4>
+							<div class="description">Sed tortor mi, gravida in viverra accumsan, pulvinar quis sem. Donec 
+							congue in nisl quis dignissim. Fusce eu elit suscipit, iaculis nibh.</div>
+						</div>
+					</div>
+					<div class="row content-box">
+						<div class="col-sm-2 col-xs-3">
+							<span class="icon-circle text-center"><i class="fa fa-bolt"></i></span>
+						</div>
+						<div class="col-sm-10 col-xs-9">
+							<h4 class="title">Variety of Designs</h4>
+							<div class="description">Sed tortor mi, gravida in viverra accumsan, pulvinar quis sem. Donec 
+							congue in nisl quis dignissim. Fusce eu elit suscipit, iaculis nibh.</div>
+						</div>
+					</div>
+					</div>
+					<div class="col-sm-6 col-xs-12 content-boxes">
+						<div class="row top-header">
+							<h2 class="title">Why to choose us</h2>
+							<div class="description">Ut efficitur cursus euismod. Vestibulum ante ipsum primis in faucibusrlfl orci luctus 
+						et ultrices posuere cubilia, nisl suscipit tempor.</div>
+						</div>
+						<div class="row content-box content-lists">
+							<ul>
+								<li><span class="icon-circle text-center"><i class="fa fa-check"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+								<li><span class="icon-circle text-center"><i class="fa fa-check"></i></span>Duis eu mauris eu lorem fermentum efficitur eget sit amet velit.</li>
+								<li><span class="icon-circle text-center"><i class="fa fa-check"></i></span>Nunc in leo non metus tempus venenatis vitae et velit.</li>
+								<li><span class="icon-circle text-center"><i class="fa fa-check"></i></span>Nam eu ligula viverra, venenatis arcu non, lobortis nisi.</li>
+								<li><span class="icon-circle text-center"><i class="fa fa-check"></i></span>Duis pulvinar neque eget arcu ornare cursus.</li>	
+								<li><span class="icon-circle text-center"><i class="fa fa-check"></i></span>Integer vel ante efficitur, finibus eros a, pulvinar leo.</li>
+							</ul> 
+						</div>
+					</div>
+				</div>

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - stanisavljevic
+id: stanisavljevic_footer_menu
+theme: stanisavljevic
+region: footer_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:footer_menu_main_stanisavljevic_MXv3bzzC1R'
+  label: 'notvisible'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }
