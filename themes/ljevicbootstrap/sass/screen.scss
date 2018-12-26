@@ -26,6 +26,8 @@ time, mark, audio, video {
   font-family: HelveticaNeue, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/*-- Site branding --*/
+
 .branding {
   a {
     font-size: 2.2rem;
@@ -51,5 +53,171 @@ time, mark, audio, video {
   .site-name-slogan {
     display: inline-table;
     margin: auto 0;
+  }
+
+  .site-slogan {
+    font-weight: 700;
+    letter-spacing: .04rem;
+  }
+}
+
+/*-- language-switcher --*/
+
+.languages {
+  display: inline-block;
+  float: right;
+
+  h2 {
+    font-size: .77rem;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  ul.links {
+    li {
+      display: inline-block;
+      margin-right: 8px;
+      border-right: solid 1px;
+      padding-right: 8px;
+      border-color: #8B8B8B;
+
+      :hover, :active {
+        color: #98d1b2 !important;
+        font-weight: 700;
+      }
+
+      .is-active {
+        color: #98d1b2 !important;
+        font-weight: 700;
+      }
+
+      a {
+        color: #8B8B8B;
+      }
+      &.hu {
+        border-right: none;
+      }
+    }
+  }
+}
+
+/*-- Navigation --*/
+
+.navigation {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  text-align: right;
+
+  ul li {
+    display: inline-block;
+    margin: 0 10px;
+
+    a {
+      color: #8B8B8B;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    :hover, :active {
+      color: #98d1b2!important;
+      border-bottom: solid 2px;
+      border-color: #98d1b2;
+      padding-bottom: 5px;
+      font-weight: 700;
+    }
+  }
+}
+
+/*-- Banner-front --*/
+
+.split-line {
+  hr {
+    border: none;
+    background-color: #98d1b2;
+    color: #98d1b2;
+    height: 5px;
+    width: 100%;
+    opacity: 0.7;
+    margin-bottom: 7px;
+  }
+}
+
+.banner-front {
+  .banner-parent {
+    background-color: #dfecf2;
+    height: 270px;
+
+    .banner-child {
+      padding: 0;
+
+      .banner {
+        height: 100%;
+        background-color: #a1c6db;
+        color: #fff;
+        padding: 32px;
+
+        h2 {
+          font-weight: 700;
+          font-size: 1.5rem;
+          padding-bottom: 10px;
+          letter-spacing: 0.16rem;
+        }
+
+        div {
+          font-size: 0.8rem;
+          line-height: 1.3rem;
+        }
+
+        .views-row {
+          h2 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*-- Help --*/
+
+.help {
+  margin: 20px auto;
+}
+/*-- Sidebar_left --*/
+
+.sidebar_left {
+  
+  div {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .contextual-region:first-of-type {
+    border-bottom: solid 2px;
+    border-color: #98d1b2;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: #98d1b2;
+  }
+}
+
+/*-- Content --*/
+.content {
+  h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+  }
+
+  div {
+    font-size: 1rem;
+    line-height: 1.7rem;
   }
 }

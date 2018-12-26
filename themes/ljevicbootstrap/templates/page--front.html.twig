@@ -104,13 +104,18 @@
             {#</titlepage>#}
         {#</div>#}
     {#</div>#}
-    <div class="row banner-front">
-        <div class="col-md-3 offset-md-9">
-            <banner id="banner">
-                <div class="banner">
-                    {{ page.banner }}
-                </div>
-            </banner>
+    <div class="split-line">
+        <hr>
+    </div>
+    <div class="container banner-front">
+        <div class="row banner-parent">
+            <div class="banner-child col-md-3 offset-md-9">
+                <banner id="banner">
+                    <div class="banner">
+                        {{ page.banner }}
+                    </div>
+                </banner>
+            </div>
         </div>
     </div>
     <div class="row">
@@ -134,7 +139,7 @@
     {#</sidebar_left>#}
     {#{% endif %}#}
     <section id="main">
-        <div class="row">
+        <div class="main-content row">
             <div class="col-3">
                 {% if page.sidebar_left %}
                     <aside id="sidebar_left" class="sidebar_left">
