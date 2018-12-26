@@ -66,3 +66,53 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("fonts/HelveticaNeue.ttf");
+}
+/* line 13, ../sass/screen.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: HelveticaNeue, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* line 29, ../sass/screen.scss */
+.branding {
+  color: #7299BF;
+}
+/* line 30, ../sass/screen.scss */
+.branding a {
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: #8B8B8B;
+  display: block;
+}
+/* line 37, ../sass/screen.scss */
+.branding a img {
+  display: block;
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+/* line 45, ../sass/screen.scss */
+.branding div {
+  font-size: 0.9rem;
+  line-height: 35px;
+}
+/* line 51, ../sass/screen.scss */
+.branding .site-name-slogan {
+  display: inline-table;
+  margin: auto 0;
+}

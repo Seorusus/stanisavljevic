@@ -5,3 +5,51 @@
 
 @import "compass/reset";
 
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("fonts/HelveticaNeue.ttf");
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: HelveticaNeue, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.branding {
+  a {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: #8B8B8B;
+    display: block;
+    //width: 310px;
+
+    img {
+      display: block;
+      width: 100px;
+      float: left;
+      margin-right: 20px;
+    }
+  }
+
+  div {
+    font-size: 0.9rem;
+    line-height: 35px;
+  }
+  color: #7299BF;
+
+  .site-name-slogan {
+    display: inline-table;
+    margin: auto 0;
+  }
+}
