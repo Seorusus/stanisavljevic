@@ -86,8 +86,8 @@
             </languages>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6 offset-md-6">
+    <div class="navigation-parent row">
+        <div class="child col-md-6 offset-md-6">
             <navigation id="navigation">
                 <div class="navigation">
                     {{ page.navigation }}
@@ -140,7 +140,7 @@
     {#{% endif %}#}
     <section id="main">
         <div class="main-content row">
-            <div class="col-3">
+            <div class="sidebar_left-parent col-3">
                 {% if page.sidebar_left %}
                     <aside id="sidebar_left" class="sidebar_left">
                         {{ page.sidebar_left}}

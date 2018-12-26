@@ -273,3 +273,61 @@ div#page {
     }
   }
 }
+
+/*-- Medium devices (tablets, less than 992px) --*/
+
+@media (max-width: 991.98px) {
+  .branding {
+    p.site-name {
+      width: 80%;
+      float: right;
+    }
+
+    .site-slogan {
+      font-weight: 700;
+      letter-spacing: .04rem;
+      width: 80%;
+      float: right;
+    }
+  }
+
+  .navigation-parent {
+    .child.col-md-6.offset-md-6 {
+      width: 100%;
+      margin-left: 0px;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .banner-front .banner-parent {
+    min-height: 338px;
+  }
+
+  .sidebar_left {
+   div h2:nth-of-type(1) {
+      padding-top: 20px;
+    }
+  }
+}
+
+/*-- Small devices (landscape phones, less than 768px) --*/
+
+@media (max-width: 767.98px) {
+  .navigation {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    text-align: left;
+
+    ul li {
+      display: block;
+      margin: 10px 10px;
+    }
+  }
+
+  .sidebar_left-parent {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -321,3 +321,58 @@ div#page {
 .footer .footer_right div a {
   color: #a7c1d2;
 }
+
+/*-- Medium devices (tablets, less than 992px) --*/
+@media (max-width: 991.98px) {
+  /* line 281, ../sass/screen.scss */
+  .branding p.site-name {
+    width: 80%;
+    float: right;
+  }
+  /* line 286, ../sass/screen.scss */
+  .branding .site-slogan {
+    font-weight: 700;
+    letter-spacing: .04rem;
+    width: 80%;
+    float: right;
+  }
+
+  /* line 295, ../sass/screen.scss */
+  .navigation-parent .child.col-md-6.offset-md-6 {
+    width: 100%;
+    margin-left: 0px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* line 303, ../sass/screen.scss */
+  .banner-front .banner-parent {
+    min-height: 338px;
+  }
+
+  /* line 308, ../sass/screen.scss */
+  .sidebar_left div h2:nth-of-type(1) {
+    padding-top: 20px;
+  }
+}
+/*-- Small devices (landscape phones, less than 768px) --*/
+@media (max-width: 767.98px) {
+  /* line 317, ../sass/screen.scss */
+  .navigation {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  /* line 322, ../sass/screen.scss */
+  .navigation ul li {
+    display: block;
+    margin: 10px 10px;
+  }
+
+  /* line 328, ../sass/screen.scss */
+  .sidebar_left-parent {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
