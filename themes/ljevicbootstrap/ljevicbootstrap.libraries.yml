@@ -5,7 +5,9 @@ globalscripts:
   css:
     theme:
       includes/bootstrap/css/bootstrap.css: {}
-      css/style.css: {}
+      stylesheets/ie.css: {}
+      stylesheets/print.css: {}
+      stylesheets/screen.css: {}
 
 fonts:
   license:
