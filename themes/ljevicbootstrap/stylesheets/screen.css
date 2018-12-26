@@ -88,54 +88,59 @@ time, mark, audio, video {
   font-family: HelveticaNeue, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/* line 29, ../sass/screen.scss */
+div#page {
+  margin-top: 20px;
+}
+
 /*-- Site branding --*/
-/* line 31, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .branding {
   color: #7299BF;
 }
-/* line 32, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .branding a {
   font-size: 2.2rem;
   text-decoration: none;
   color: #8B8B8B;
   display: block;
 }
-/* line 39, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .branding a img {
   display: block;
   width: 100px;
   float: left;
   margin-right: 20px;
 }
-/* line 47, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .branding div {
   font-size: 0.9rem;
   line-height: 35px;
 }
-/* line 53, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .branding .site-name-slogan {
   display: inline-table;
   margin: auto 0;
 }
-/* line 58, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .branding .site-slogan {
   font-weight: 700;
   letter-spacing: .04rem;
 }
 
 /*-- language-switcher --*/
-/* line 66, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .languages {
   display: inline-block;
   float: right;
 }
-/* line 70, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .languages h2 {
   font-size: .77rem;
   margin-bottom: 8px;
   text-align: left;
 }
-/* line 77, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .languages ul.links li {
   display: inline-block;
   margin-right: 8px;
@@ -143,44 +148,44 @@ time, mark, audio, video {
   padding-right: 8px;
   border-color: #8B8B8B;
 }
-/* line 84, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .languages ul.links li :hover, .languages ul.links li :active {
   color: #98d1b2 !important;
   font-weight: 700;
 }
-/* line 89, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .languages ul.links li .is-active {
   color: #98d1b2 !important;
   font-weight: 700;
 }
-/* line 94, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .languages ul.links li a {
   color: #8B8B8B;
 }
-/* line 97, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .languages ul.links li.hu {
   border-right: none;
 }
 
 /*-- Navigation --*/
-/* line 106, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .navigation {
   margin-top: -20px;
   margin-bottom: 20px;
   text-align: right;
 }
-/* line 111, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .navigation ul li {
   display: inline-block;
   margin: 0 10px;
 }
-/* line 115, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .navigation ul li a {
   color: #8B8B8B;
   font-weight: 700;
   text-decoration: none;
 }
-/* line 121, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .navigation ul li :hover, .navigation ul li :active {
   color: #98d1b2 !important;
   border-bottom: solid 2px;
@@ -190,7 +195,7 @@ time, mark, audio, video {
 }
 
 /*-- Banner-front --*/
-/* line 134, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .split-line hr {
   border: none;
   background-color: #98d1b2;
@@ -201,59 +206,59 @@ time, mark, audio, video {
   margin-bottom: 7px;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .banner-front .banner-parent {
   background-color: #dfecf2;
   height: 270px;
 }
-/* line 150, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .banner-front .banner-parent .banner-child {
   padding: 0;
 }
-/* line 153, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .banner-front .banner-parent .banner-child .banner {
   height: 100%;
   background-color: #a1c6db;
   color: #fff;
   padding: 32px;
 }
-/* line 159, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .banner-front .banner-parent .banner-child .banner h2 {
   font-weight: 700;
   font-size: 1.5rem;
   padding-bottom: 10px;
   letter-spacing: 0.16rem;
 }
-/* line 166, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .banner-front .banner-parent .banner-child .banner div {
   font-size: 0.8rem;
   line-height: 1.3rem;
 }
-/* line 172, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .banner-front .banner-parent .banner-child .banner .views-row h2 {
   display: none;
 }
 
 /*-- Help --*/
-/* line 183, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .help {
   margin: 20px auto;
 }
 
 /*-- Sidebar_left --*/
-/* line 190, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .sidebar_left div {
   font-size: 0.8rem;
   line-height: 1.3rem;
 }
-/* line 195, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .sidebar_left .contextual-region:first-of-type {
   border-bottom: solid 2px;
   border-color: #98d1b2;
   padding-bottom: 25px;
   margin-bottom: 25px;
 }
-/* line 203, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .sidebar_left h2 {
   font-weight: 700;
   font-size: 1.5rem;
@@ -262,14 +267,57 @@ time, mark, audio, video {
 }
 
 /*-- Content --*/
-/* line 213, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .content h2 {
   font-weight: 500;
   font-size: 1.5rem;
   padding-bottom: 25px;
 }
-/* line 219, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .content div {
   font-size: 1rem;
   line-height: 1.7rem;
+}
+
+/*-- HR bottom --*/
+/* line 232, ../sass/screen.scss */
+.split-line-bottom hr {
+  border: none;
+  background-color: #a7c1d2;
+  color: #a7c1d2;
+  height: 5px;
+  width: 100%;
+  opacity: 0.7;
+  margin-bottom: 7px;
+}
+
+/*-- Footer --*/
+/* line 244, ../sass/screen.scss */
+.footer {
+  padding-bottom: 30px;
+}
+/* line 248, ../sass/screen.scss */
+.footer .footer_left div {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  color: #a7c1d2;
+  font-weight: 700;
+}
+/* line 257, ../sass/screen.scss */
+.footer .footer_right div {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  color: #a7c1d2;
+  font-weight: 700;
+  display: inline-block;
+  float: right;
+}
+/* line 265, ../sass/screen.scss */
+.footer .footer_right div ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* line 270, ../sass/screen.scss */
+.footer .footer_right div a {
+  color: #a7c1d2;
 }
