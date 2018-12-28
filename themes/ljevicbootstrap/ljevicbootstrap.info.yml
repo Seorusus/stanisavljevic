@@ -12,7 +12,8 @@ regions:
   banner: 'Banner'
   help: 'Help'
   content: 'Main Content'
-  sidebar_left: 'Sidebar Left'
+  sidebar_left_top: 'Sidebar Left Top'  
+  sidebar_left_bottom: 'Sidebar Left Bottom'
   footer_left: 'Footer Left'
   footer_right: 'Footer Right'
 
