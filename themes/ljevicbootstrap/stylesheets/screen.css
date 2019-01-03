@@ -216,27 +216,47 @@ div#page {
   padding: 0;
 }
 /* line 157, ../sass/screen.scss */
-.banner-front .banner-parent .banner-child .banner {
-  height: 100%;
+.banner-front .banner-parent .banner-child .banner-right {
+/*   height: 100%; */
   background-color: #a1c6db;
   color: #fff;
   padding: 32px;
 }
 /* line 163, ../sass/screen.scss */
-.banner-front .banner-parent .banner-child .banner h2 {
+.banner-front .banner-parent .banner-child .banner-right h2 {
   font-weight: 700;
   font-size: 1.5rem;
   padding-bottom: 10px;
   letter-spacing: 0.16rem;
 }
 /* line 170, ../sass/screen.scss */
-.banner-front .banner-parent .banner-child .banner div {
+.banner-front .banner-parent .banner-child .banner-right div {
   font-size: 0.8rem;
   line-height: 1.3rem;
 }
 /* line 176, ../sass/screen.scss */
-.banner-front .banner-parent .banner-child .banner .views-row h2 {
+.banner-front .banner-parent .banner-child .banner-right .views-row h2 {
   display: none;
+}
+
+.banner-left, .banner-right {
+  padding: 0;
+  float: left;
+  height: 270px;
+}
+
+.banner-left {
+  overflow: hidden;
+}
+
+.banner-right {
+/*   height: -webkit-fill-available; */
+
+}
+
+.banner-left img {
+    width: 100%;
+/*     height: -webkit-fill-available; */
 }
 
 /*-- Help --*/

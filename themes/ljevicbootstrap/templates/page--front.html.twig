@@ -107,14 +107,19 @@
     <div class="split-line">
         <hr>
     </div>
-    <div class="container banner-front">
-        <div class="row banner-parent">
-            <div class="banner-child col-md-3 offset-md-9">
-                <banner id="banner">
-                    <div class="banner">
-                        {{ page.banner }}
+    <div class="banner-front">
+        <div class="banner-parent">
+            <div class="banner-child">
+                <banner_left id="banner_left">
+                    <div class="banner-left col-12 col-sm-9">
+                        {{ page.banner_left }}
                     </div>
-                </banner>
+                </banner_left>
+                <banner_right id="banner_right">
+                    <div class="banner-right col-12 col-sm-3">
+                        {{ page.banner_right }}
+                    </div>
+                </banner_right>
             </div>
         </div>
     </div>

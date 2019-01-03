@@ -154,8 +154,8 @@ div#page {
     .banner-child {
       padding: 0;
 
-      .banner {
-        height: 100%;
+      .banner-right {
+        // height: 100%;
         background-color: #a1c6db;
         color: #fff;
         padding: 32px;
@@ -177,6 +177,10 @@ div#page {
             display: none;
           }
         }
+      }
+      
+      .banner-left {
+        overflow: hidden;
       }
     }
   }
@@ -305,6 +309,20 @@ div#page {
   .banner-front .banner-parent {
     min-height: 338px;
   }
+
+.banner-left img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+.banner-left, .banner-right {
+  padding: 0;
+  float: left;
+}
+
+.banner-right {
+  height: -webkit-fill-available;
+}
 
   .sidebar_left {
    div h2:nth-of-type(1) {
