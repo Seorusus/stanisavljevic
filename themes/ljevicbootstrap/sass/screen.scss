@@ -217,6 +217,11 @@ div#page {
 }
 
 /*-- Content --*/
+
+// .main-content.row {
+//     display: block;
+// }
+
 .content {
   h2 {
     font-weight: 500;
@@ -306,13 +311,13 @@ div#page {
     }
   }
 
-  .banner-front .banner-parent {
-    min-height: 338px;
-  }
+  // .banner-front .banner-parent {
+  //   min-height: 338px;
+  // }
 
 .banner-left img {
     width: 100%;
-    height: -webkit-fill-available;
+    height: auto;
 }
 
 .banner-left, .banner-right {
@@ -334,6 +339,16 @@ div#page {
 /*-- Small devices (landscape phones, less than 768px) --*/
 
 @media (max-width: 767.98px) {
+
+  .main-content.row {
+    display: inline-block;
+    display: -webkit-inline-box;    
+}
+
+  .banner-left img {
+    width: 100%;
+    height: auto;
+}
 
   .languages ul.links li {
     width: 39%;
