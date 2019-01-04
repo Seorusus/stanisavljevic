@@ -107,18 +107,23 @@
     <div class="split-line">
         <hr>
     </div>
-    <div class="container banner-front">
-        <div class="row banner-parent">
-            <div class="banner-child col-md-3 offset-md-9">
-                <banner id="banner">
-                    <div class="banner">
-                        {{ page.banner }}
+    <div class="banner-front">
+        <div class="banner-parent">
+            <div class="banner-child">
+                <banner_left id="banner_left">
+                    <div class="banner-left col-12 col-sm-9">
+                        {{ page.banner_left }}
                     </div>
-                </banner>
+                </banner_left>
+                <banner_right id="banner_right">
+                    <div class="banner-right col-12 col-sm-3">
+                        {{ page.banner_right }}
+                    </div>
+                </banner_right>
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row help-parent">
         <div class="col">
             <help id="help">
                 <div class="help">
@@ -140,7 +145,7 @@
     {#{% endif %}#}
     <section id="main">
         <div class="main-content row">
-            <div class="sidebar_left-parent col-3">
+            <div class="sidebar_left-parent col-3 col-sm-4 ">
                 <div class="col">
                 {% if page.sidebar_left_top %}
                     <aside id="sidebar_left" class="sidebar_left top">
@@ -150,7 +155,7 @@
                 </div>
                 <div class="split-line">
                     <hr>
-                </div>                
+                </div>
                 <div class="col">
                 {% if page.sidebar_left_bottom %}
                     <aside id="sidebar_left" class="sidebar_left bottom">
@@ -159,12 +164,12 @@
                 {% endif %}
                 </div>
             </div>
-            <div class="main-content-middle col-9">
+            <div class="main-content-middle col-9 col-sm-8">
                 <div id="content" class="content">
                     {{ page.content }}
                 </div>
             </div>
-            </div>
+        </div>
     </section>
     <div class="split-line-bottom">
         <hr>

@@ -256,7 +256,7 @@ div#page {
 
 .banner-left img {
     width: 100%;
-    height: -webkit-fill-available;
+    height: auto;
 }
 
 /*-- Help --*/
@@ -387,12 +387,20 @@ div#page {
 
   .main-content.row {
     display: inline-block;
-    display: -webkit-inline-box;    
+/*     display: -webkit-inline-box;    */ 
+}
+
+.banner-left, .banner-right {
+    height: auto;
 }
 
 .banner-left img {
     width: 100%;
     height: auto;
+}
+
+.row.help-parent {
+    display: inline-block;
 }
 
   .languages ul.links li {
